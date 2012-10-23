@@ -1,0 +1,125 @@
+#main {padding: 20px 0 0 0;}
+body, input, textarea, .page-title span, .pingback a.url {font-family: "Arial", Arial, Helvetica, sans-serif;}
+/*body {background-image: url(/cdemris/wp-content/themes/weaver/images/gr.png); background-attachment: scroll; background-repeat: repeat-x;}*/
+#content {font-size: 120%; line-height: 125%; }
+#comments {font-size: 90%; line-height: 90%; }
+h3#comments-title, h3#reply-title, #access .menu, #access div.menu ul, #access2 .menu, #access2 div.menu ul,
+#access3 .menu, #access3 div.menu ul,
+#cancel-comment-reply-link, .form-allowed-tags, #site-info, #site-title, #wp-calendar,
+.comment-meta, .comment-body tr th, .comment-body thead th, .entry-content label, .entry-content tr th,
+.entry-content thead th, .entry-meta, .entry-title, .entry-utility, #respond label, .navigation,
+.page-title, .pingback p, .reply, .widget_search label, .widget-title, input[type=submit] {font-family: "Arial", Arial, Helvetica, sans-serif;}
+#container, #primary, #secondary, #altleft, #altright, #ttw-top-widget, #ttw-bot-widget,
+  #ttw-site-top-widget, #ttw-site-bot-widget, #per-page-widget {-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;}
+#access {-moz-border-radius-bottomleft: 7px; -moz-border-radius-bottomright: 7px;
+ -webkit-border-bottom-left-radius: 7px; -webkit-border-bottom-right-radius: 7px;border-bottom-left-radius: 7px; border-bottom-right-radius: 7px;}
+#access2 {-moz-border-radius-topleft: 7px; -moz-border-radius-topright: 7px;
+ -webkit-border-top-left-radius: 7px; -webkit-border-top-right-radius: 7px;border-top-left-radius: 7px; border-top-right-radius: 7px;}
+#wrapper {-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; margin-top: 15px; margin-bottom: 15px;}
+#access a, #access2 a, #access3 a { padding-left:10px; padding-right:10px;}
+/* Sidebar arrangement */
+/* Color and custom CSS */
+body {background-color: #C9651C;}
+/*body {background-color: #0099CD;}*/
+#container {background-color: transparent;}
+#content {background-color: #FFFFFF;}
+#content p {padding-left:15px;}, #content .post {border-top: 1px dotted #DBD2C4;border-bottom: 1px dotted #C4BCB0;margin-bottom:10px;}
+#content, #content input, #content textarea {color: #444444;}
+#site-description {color: #666666;}
+#footer {background-color: #FFFFFF;}
+#colophon { border-top: 4px solid #C9651C ;  }
+#first,#second, #third, #fourth {background-color: transparent;padding-left: 10px; padding-top: 10px; margin-bottom: 5px;}
+#header {background-color: transparent;}
+hr {background-color: #C9651C;}
+.page-title a:link {color: #AE927D;}
+.entry-meta a:link {color: #AE927D;}
+.entry-utility a:link {color: #AE927D;}
+.navigation a:link {color: #AE927D;}
+.comment-meta a:link {color: #AE927D;}
+.reply a:link, a.comment-edit-link:link {color: #AE927D;}
+.page-title a:visited {color: #AE927D;}
+.entry-meta a:visited {color: #AE927D;}
+.entry-utility a:visited {color: #AE927D;}
+.navigation a:visited {color: #AE927D;}
+.comment-meta a:visited {color: #AE927D;}
+.reply a:visited, a.comment-edit-link:visited {color: #AE927D;}
+.page-title a:active, .page-title a:hover {color: #C9651C;}
+.entry-meta a:hover, .entry-meta a:active {color: #C9651C;}
+.entry-utility a:hover, .entry-utility a:active {color: #C9651C;}
+.navigation a:active, .navigation a:hover {color: #C9651C;}
+.comment-meta a:active, .comment-meta a:hover {color: #C9651C;}
+.reply a:active, a.comment-edit-link:active, .reply a:hover, a.comment-edit-link:hover {color: #C9651C;}
+#comments .pingback p {color: #888888;}
+#respond label, #respond dt, #respond dd {color: #888888;}
+.entry-meta, .entry-content label, .entry-utility {color: #888888;}
+#content .wp-caption, #content .gallery .gallery-caption {color: #888888;}
+.navigation {color: #888888;}
+.entry-format {color: default-style-color!important;}
+.entry-meta {background-color: transparent;}
+.entry-utility {background-color: transparent;}
+input[type="text"], textarea, input[type="submit"], ins {background-color: #F0F0F0;}
+a:link {color: #000000;}
+a:visited {color: #000000;}
+a:active, a:hover {color: #C9651C;}
+#main {background-color: #FFFFFF;}
+#content .wp-caption p.wp-caption-text, #content .gallery .gallery-caption {color: #333333;}
+#content .size-full, #content .size-large, #content .size-medium, #content .size-thumbnail,#content .size-thumbnail {background-color: transparent;}
+#content .wp-caption p.wp-caption-text,
+#content .wp-caption .size-full, #content .wp-caption .size-large, #content .wp-caption .size-medium,
+#content .wp-caption .size-thumbnail, #content .wp-caption .size-thumbnail {background-color: #F1F1F1;}
+#access, #access2, #access3 {background-color: #C9651C;}
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {color: #FFFFFF;}
+#access2 ul li.current_page_item > a, #access2 ul li.current-menu-ancestor > a,
+#access2 ul li.current-menu-item > a, #access2 ul li.current-menu-parent > a {color: #FFFFFF;}
+#access3 ul li.current_page_item > a, #access3 ul li.current-menu-ancestor > a,
+#access3 ul li.current-menu-item > a, #access3 ul li.current-menu-parent > a {color: #FFFFFF;}
+#access li:hover > a, #access ul ul :hover > a {color: #FFFFFF;}
+#access2 li:hover > a, #access2 ul ul :hover > a {color: #FFFFFF;}
+#access3 li:hover > a, #access3 ul ul :hover > a {color: #FFFFFF;}
+#access ul ul a, #access li:hover > a, #access ul ul :hover > a  {background-color: #CD691F;}
+#access2 ul ul a, #access2 li:hover > a, #access2 ul ul :hover > a  {background-color: #CD691F;}
+#access3 ul ul a, #access3 li:hover > a, #access3 ul ul :hover > a  {background-color: #CD691F;}
+#access a, #access2 a, #access3 a {color: #E8E8E8;}
+#wrapper {background-color: #FFFFFF;}
+.entry-title a:link {color: #000000;}
+.widget_rss a.rsswidget:link {color: #000000;}
+.entry-title a:visited {color: #000000;}
+.widget_rss a.rsswidget:visited {color: #000000;}
+.entry-title a:active, .entry-title a:hover {color: #C9651C;}
+.widget_rss a.rsswidget:active, .widget_rss a.rsswidget:hover {color: #C9651C;}
+.post {background-color: transparent;}
+#primary {background-color: #EBEBEB;padding-left: 10px; padding-top: 10px; margin-bottom: 5px;}
+#secondary {background-color: #FFFFFF;padding-left: 10px; padding-top: 10px; margin-bottom: 5px;}
+#altright, #altleft {background-color: #EBEBEB;padding-left: 10px; padding-top: 10px; margin-bottom: 5px;}
+.home .sticky, #entry-author-info, #container.page-with-posts .sticky {background-color: #FFDEAD;}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content dt, #content th {color: #C9651C;}
+h1, h2, h3, h4, h5, h6 {color: #C9651C;}
+.page-title {color: #C9651C;}
+.page-link {color: #C9651C;}
+#entry-author-info h2 {color: #C9651C;}
+h3#comments-title, h3#reply-title {color: #C9651C;}
+.comment-author cite {color: #C9651C;}
+.entry-content fieldset legend {color: #C9651C;}
+#content .entry-title {color: #C9651C;}
+#site-title a { color: #000000; }
+#ttw-top-widget, #ttw-bot-widget, #ttw-site-top-widget, #ttw-site-bot-widget, #per-page-widget {background-color: #FFFFFF;padding-left: 10px; padding-top: 10px; margin-bottom: 10px;}
+table { border-collapse:collapse;border-spacing:0;}
+th { text-align:left; padding:4px 4px; }
+td { margin:0;padding:4px 4px; }
+#content table {border: 1px solid #e7e7e7;margin: 0 -1px 24px 0;text-align: left;width: 100%;}
+#content tr th, #content thead th {color: #888;font-size: 12px;font-weight: bold;line-height: 18px;padding: 9px 24px;}
+#content tr td {border-style:none; border-top: 1px solid #e7e7e7; padding: 6px 24px;}
+#content tr.odd td {background: #f2f7fc;}
+.widget-area {color: #404040;}
+.widget-container {background-color: transparent;}
+.widget-title {color: #222222;}
+.widget_search label {color: #222222;}
+#wp-calendar caption {color: #222222;}
+.widget-title {font-size:130%;margin-bottom:8px;border-bottom: 1px dotted #C4BCB0;}
+.widget_search label {font-size:130%;margin-bottom:8px;border-bottom: 1px dotted #C4BCB0;}
+#wp-calendar caption {font-size:130%;margin-bottom:8px;border-bottom: 1px dotted #C4BCB0;}
+#primary a:link, #secondary a:link, #altleft a:link, #altright a:link, #footer-widget-area a:link {color: #000000;}
+#primary a:visited, #secondary a:visited, #altleft a:visited, #altright a:visited, #footer-widget-area a:visited {color: #000000;}
+#primary a:hover, #secondary a:hover, #altleft a:hover, #altright a:hover, #footer-widget-area a:hover {color: #C9651C;}
+#wrapper {box-shadow: 0 0 3px 3px rgba(0,0,0,0.25); -webkit-box-shadow: 0 0 3px 3px rgba(0,0,0,0.25); -moz-box-shadow: 0 0 3px 3px rgba(0,0,0,0.25);}
